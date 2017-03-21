@@ -19,6 +19,8 @@
 		7DC6492A1E8132830094B4DE /* ListeRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC649291E8132830094B4DE /* ListeRestaurant.swift */; };
 		7DC6492C1E81332F0094B4DE /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC6492B1E81332F0094B4DE /* Restaurant.swift */; };
 		7DC6492E1E813AEE0094B4DE /* Appreciation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC6492D1E813AEE0094B4DE /* Appreciation.swift */; };
+		7DC649301E815CD10094B4DE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 7DC6492F1E815CD10094B4DE /* .gitignore */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,7 @@
 		7DC649291E8132830094B4DE /* ListeRestaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListeRestaurant.swift; sourceTree = "<group>"; };
 		7DC6492B1E81332F0094B4DE /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		7DC6492D1E813AEE0094B4DE /* Appreciation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appreciation.swift; sourceTree = "<group>"; };
+		7DC6492F1E815CD10094B4DE /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +55,7 @@
 		7D041D4D1E80096A0008039E = {
 			isa = PBXGroup;
 			children = (
+				7DC6492F1E815CD10094B4DE /* .gitignore */,
 				7D041D581E80096B0008039E /* ProjetGroupeReso */,
 				7D041D571E80096B0008039E /* Products */,
 			);
@@ -145,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DC649301E815CD10094B4DE /* .gitignore in Resources */,
 				7D041D691E80096B0008039E /* LaunchScreen.storyboard in Resources */,
 				7D041D661E80096B0008039E /* Assets.xcassets in Resources */,
 				7D041D641E80096B0008039E /* Main.storyboard in Resources */,
