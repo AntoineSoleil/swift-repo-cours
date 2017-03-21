@@ -14,6 +14,11 @@
 		7D041D641E80096B0008039E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D041D621E80096B0008039E /* Main.storyboard */; };
 		7D041D661E80096B0008039E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D041D651E80096B0008039E /* Assets.xcassets */; };
 		7D041D691E80096B0008039E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D041D671E80096B0008039E /* LaunchScreen.storyboard */; };
+		7DC649261E8039640094B4DE /* addRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC649251E8039640094B4DE /* addRestaurant.swift */; };
+		7DC649281E812C220094B4DE /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC649271E812C220094B4DE /* Menu.swift */; };
+		7DC6492A1E8132830094B4DE /* ListeRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC649291E8132830094B4DE /* ListeRestaurant.swift */; };
+		7DC6492C1E81332F0094B4DE /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC6492B1E81332F0094B4DE /* Restaurant.swift */; };
+		7DC6492E1E813AEE0094B4DE /* Appreciation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC6492D1E813AEE0094B4DE /* Appreciation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		7D041D651E80096B0008039E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D041D681E80096B0008039E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D041D6A1E80096B0008039E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DC649251E8039640094B4DE /* addRestaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addRestaurant.swift; sourceTree = "<group>"; };
+		7DC649271E812C220094B4DE /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		7DC649291E8132830094B4DE /* ListeRestaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListeRestaurant.swift; sourceTree = "<group>"; };
+		7DC6492B1E81332F0094B4DE /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		7DC6492D1E813AEE0094B4DE /* Appreciation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appreciation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +76,11 @@
 				7D041D671E80096B0008039E /* LaunchScreen.storyboard */,
 				7D041D6A1E80096B0008039E /* Info.plist */,
 				7D041D5B1E80096B0008039E /* ProjetGroupeReso.xcdatamodeld */,
+				7DC649251E8039640094B4DE /* addRestaurant.swift */,
+				7DC649271E812C220094B4DE /* Menu.swift */,
+				7DC649291E8132830094B4DE /* ListeRestaurant.swift */,
+				7DC6492B1E81332F0094B4DE /* Restaurant.swift */,
+				7DC6492D1E813AEE0094B4DE /* Appreciation.swift */,
 			);
 			path = ProjetGroupeReso;
 			sourceTree = "<group>";
@@ -143,10 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DC6492E1E813AEE0094B4DE /* Appreciation.swift in Sources */,
+				7DC649281E812C220094B4DE /* Menu.swift in Sources */,
 				7D041D5D1E80096B0008039E /* ProjetGroupeReso.xcdatamodeld in Sources */,
+				7DC649261E8039640094B4DE /* addRestaurant.swift in Sources */,
 				7D041D5A1E80096B0008039E /* AppDelegate.swift in Sources */,
+				7DC6492C1E81332F0094B4DE /* Restaurant.swift in Sources */,
 				7D041D5F1E80096B0008039E /* MasterViewController.swift in Sources */,
 				7D041D611E80096B0008039E /* DetailViewController.swift in Sources */,
+				7DC6492A1E8132830094B4DE /* ListeRestaurant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +330,7 @@
 				7D041D6F1E80096B0008039E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
